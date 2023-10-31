@@ -1,0 +1,147 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.head {
+  text-align: center;
+  padding-top:5% ;
+  font-weight: 400;
+}
+.txt {
+  text-align: center;
+}
+
+.txt2 {
+  text-align: center;
+  color: blue;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0%;
+}
+.icon-sec {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+
+}
+#icon {
+  padding-top: 5px;
+  color: blue;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+ 
+.sidebar a.active {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+}
+
+.smt {
+  display: flex;
+  justify-content: space-between;
+}
+
+p.card-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.single {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fcard {
+  margin-bottom: 20px;
+}
+.second-card {
+  margin-bottom: 20px;
+}
+.see {
+  font-size: 18px;
+}
+.para {
+  font-size: 16px;
+}
+.end-card {
+  background: antiquewhite;
+    width: 345px;
+    height: 230px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 15%;
+}
+.hr {
+  padding-top: 10px;
+
+}
+
+@media screen and  (max-width:992px){
+   
+  
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
